@@ -10,7 +10,7 @@ namespace Animali
     {
         public abstract void faiVerso(int nrVolte);    //metodo astratto => il corpo lo scrivo nelle classi derivate
 
-        public void dormi()
+        public void dormi()     //metodo normale (comune a tutte le sottoclassi)
         {
             Console.WriteLine("ZZZZZZ");
         }
